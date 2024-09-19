@@ -145,6 +145,7 @@ margin-right: 332px;
 body {
   font-family: "Roboto", sans-serif;
 
+
 }
 .title-about {
   background-color: #ffffff;
@@ -187,7 +188,7 @@ body {
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
-  background-image:url(/images/icons.svg/SVG/Dark-bg.svg), url(/images/icons.svg/SVG/people-office\ 1\ \(1\).svg) ; 
+  background-image:url(/images/icons.svg/SVG/dark.svg), url(/images/icons.svg/SVG/people-office.svg) ; 
 background-size: cover;
 background-repeat: no-repeat;
 
