@@ -358,4 +358,25 @@ max-width: 264px;
 }
 .footer-social-media{
 display: flex;
+width: 400px;
+}
+.social-media-p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+color: #FFFFFF;
+  text-align: left;
+    display: flex;
+}
+.footer-section-icon{
+  width: 208px;
+    height: 80px;
+    top: 3256px;
+    left: 540px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+
 }
