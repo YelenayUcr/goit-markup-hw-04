@@ -96,6 +96,7 @@ margin-right: 332px;
   padding: 24px 0;
     display: flex;
 }
+
 .title {
   text-decoration: none;
   color: #2e2f42;
@@ -192,6 +193,10 @@ body {
   background-image:url(/images/dark.png), url(/images/people-office.png) ; 
 background-size: cover;
 background-repeat: no-repeat;
+  background-position: center center;
+
+
+
 }
 .section-main-title .h1-about {
   align-items: center;
@@ -377,6 +382,6 @@ color: #FFFFFF;
     left: 540px;
     gap: 0px;
     opacity: 0px;
-    display: flex;
+
 
 }
