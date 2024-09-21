@@ -460,6 +460,24 @@ footer p {
   gap: 20px;
 }
 
-.icons-webside {
-  fill: #31d0aa;
+.icon:hover {
+background-color: #31d0aa;
+
+}
+.icon-div{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+height: 40px;
+margin-top: 8px;
+}
+
+.footer-icon{
+display: flex;
+    width: Hug (208px)px;
+      height: Hug (40px)px;
+      top: 3296px;
+      left: 540px;
+      gap: 16px;
+      opacity: 0px;
 }
