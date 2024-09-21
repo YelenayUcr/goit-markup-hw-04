@@ -91,7 +91,9 @@ display: flex;
 display: flex;
 gap: 40px;
 margin-right: 332px;
+  position: relative;
 }
+
  .header-li{
   padding: 24px 0;
     display: flex;
@@ -117,17 +119,17 @@ width: 48px;
   gap: 0px;
   border-radius: 2px 0px 0px 0px;
   opacity: 0px;
-
-
-
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.title:hover {
+.ul-about1:hover {
   color: #404bbf;
+      transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
-.title:active {
-  color: #404bbf;
-}
+
 .address-div .mail-tel{
   gap: 40px;
 
@@ -402,8 +404,10 @@ color: #FFFFFF;
     border: 1px 0px 0px 0px;
     opacity: 0px;
    border-radius: 4px;
+   
 
 }
+
 .vector {
   border: 1px solid #8E8F99;
   box-shadow: #8E8F99;
@@ -437,4 +441,25 @@ color: #FFFFFF;
     opacity: 0px;
     border-radius: 4px;
 }
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
 
+.social-media-icon-webside {
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+  width: 264px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icons-webside {
+  fill: #31d0aa;
+}
