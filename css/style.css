@@ -113,13 +113,28 @@ display: flex;
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
-  
+
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color;
 
 }
+.e-mail{
+  width: 153px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    margin-right: 24px;
+}
+.tel{
+width: 151px;
+  height: 24px;
+  top: 24px;
+  left: 1133px;
+  gap: 0px;
+  opacity: 0px;
 
+}
 .address-div:hover {
   color: #404bbf;
 }
