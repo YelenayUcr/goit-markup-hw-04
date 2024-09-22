@@ -203,13 +203,13 @@ body {
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
-  background-image:url(/images/dark.png), url(/images/people-office.png) ; 
+
 background-size: cover;
 background-repeat: no-repeat;
   background-position: center center;
-
-
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(/images/people-office.jpg);
 }
 .section-main-title .h1-about {
   align-items: center;
@@ -217,10 +217,11 @@ background-repeat: no-repeat;
     display: block;
     margin: 0 auto;
   font-size: 56px;
-  letter-spacing: 2%;
+  letter-spacing: 2%;  
   color: #ffffff;
   max-width: 496px;
   margin-bottom: 48px;
+
 }
 .button-about {
   align-items: center;
