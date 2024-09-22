@@ -107,9 +107,6 @@ margin-right: 332px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   cursor: pointer;
-
-   
-
 }
 .title:active{
   background: rgba(64, 75, 191, 1);
@@ -126,7 +123,6 @@ width: 48px;
   color: #404bbf;
       transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- 
 }
 
 
@@ -137,8 +133,6 @@ width: 48px;
 .address-div  {
   display: flex;
             align-items: center;
-
-
 }
 
 .address {
@@ -203,7 +197,6 @@ body {
   background-color: #2e2f42;
   padding: 188px 0;
   margin: 0 auto;
-
 background-size: cover;
 background-repeat: no-repeat;
   background-position: center center;
@@ -450,21 +443,6 @@ footer p {
   color: #f4f4fd;
 }
 
-.social-media-icon-webside {
-  position: relative;
-  bottom: 20px;
-  right: 25px;
-  width: 264px;
-  height: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.icon:hover {
-background-color: #31d0aa;
-
-}
 .icon-div{
   display: flex;
   flex-direction: row;
@@ -473,12 +451,41 @@ height: 40px;
 margin-top: 8px;
 }
 
-.footer-icon{
-display: flex;
-    width: Hug (208px)px;
-      height: Hug (40px)px;
-      top: 3296px;
-      left: 540px;
-      gap: 16px;
-      opacity: 0px;
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
 }
+.footer-icon{
+  display: flex;
+  width: 220px;
+  height: 120px;
+gap: 16px;
+
+}
+#icon-instagram:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#icon-twitter:hover {
+  background-color: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#icon-facebook:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#icon-linkedin:hover {
+  fill: #31d0aa;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
