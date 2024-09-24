@@ -94,7 +94,10 @@ display: flex;
     transition-property: background-color;
 }
 
-
+.title:hover{
+  color: #404bbf;
+ 
+}
 
 .title:active::after {
   content: "";
@@ -239,6 +242,8 @@ background-repeat: no-repeat;
             position: relative;
             isolation: isolate;
             display: grid;
+            max-width: 1440px;
+            background-color: #ffffff;
 }
 .section-main-title .h1-about {
   align-items: center;
