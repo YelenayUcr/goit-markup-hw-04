@@ -92,7 +92,7 @@ display: flex;
     position: relative;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
+    transition-property: color;
 }
 
 .title:hover{
@@ -120,7 +120,7 @@ display: flex;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: color;
 
 }
 .e-mail{
@@ -415,7 +415,7 @@ margin-left: 16px;
   opacity: 0;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
+    transition-property: opacity;
 }
 .section-4-hover:hover {
   opacity: 1;
@@ -442,7 +442,7 @@ margin-left: 16px;
      flex-direction: column;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     transition-property: background-color;
+     transition-property: box-shadow;
     }
 .footer-p {
   font-weight: 400;
