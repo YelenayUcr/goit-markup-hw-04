@@ -98,7 +98,8 @@ display: flex;
 
 .title:hover{
   color: #404bbf;
- 
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title:active::after {
@@ -109,6 +110,7 @@ display: flex;
   position: absolute;
   bottom: -22px;
   left: 0;
+  transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-div {
@@ -142,6 +144,8 @@ width: 151px;
 }
 .address-div:hover {
   color: #404bbf;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
  .ul-about1{
 display: flex;
@@ -184,11 +188,13 @@ margin-right: 332px;
 
 .address:hover {
   color: #404bbf;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
   font-family: "Roboto", sans-serif;
-
+   margin:0;
 
 }
 .title-about {
@@ -277,6 +283,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-about:hover {
   background-color: #404bbf;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section{
@@ -460,6 +468,8 @@ margin-left: 16px;
 }
 .section-4-hover:hover {
   opacity: 1;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-4-text{
   font-weight: 400;
@@ -476,6 +486,8 @@ margin-left: 16px;
 .our-li:hover {
   background: #ffffff;
   box-shadow: 2px 2px 0px 0px #2e2f4214;
+    transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
  .our-li{
     position: relative;
@@ -557,21 +569,12 @@ margin-left: 16px;
     margin-bottom: 132px;
  }
 
-.footer-icon {
-
-  transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
-}
-
 .footer-icon:hover {
   --color1: #31d0aa;
-}
-
-.portfolio-icon {
-  transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-icon:hover {
   --color1: #31d0aa;
+transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
