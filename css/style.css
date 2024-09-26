@@ -456,8 +456,6 @@ ul {
   border: 1px solid #8E8F99;
   box-shadow: #8E8F99;
   background: #F4F4FD;
-  width: 264px;
-  height: 112px;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
@@ -606,71 +604,3 @@ ul {
   transition-property: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-label {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: white;
-  display: block;
-}
-
-.footer-e-mail {
-
-  width: 453px;
-  height: 80px;
-
-
-
-}
-
-.footer-input {
-  width: 264px;
-  height: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 4%;
-  color: white;
-  background-color: transparent;
-  border: 1px, solid, white;
-  border-radius: 4px;
-  padding-left: 12px;
-  position: relative;
-  top: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-input::placeholder {
-  color: white;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 4%;
-  width: 36px;
-  height: 24px;
-
-}
-
-.button-footer {
-  width: 165px;
-  height: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
-  cursor: pointer;
-  color: white;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  padding-right: 50px;
-  position: relative;
-  top: 20px;
-  left: 10px;
-  font-family: Roboto;
-
-}
