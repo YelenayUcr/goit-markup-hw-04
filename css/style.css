@@ -576,7 +576,7 @@ ul {
 
 .footer-icon:hover {
   --color1: #31d0aa;
-  fill: var(--color1);
+  fill: var(--color1, #4D5AE5);
 
 }
 
@@ -586,7 +586,8 @@ ul {
 
 .portfolio-icon:hover {
   --color1: #31d0aa;
-  fill: var(--color1);
+  fill: var(--color1, #4D5AE5);
+
 
 }
 
